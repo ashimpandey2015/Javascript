@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+        console.log("Hello world!!!")
+
+        var myAge = 20
+        var HIII
+        var four
+
+        function first() {
+            console.log("Hello World!!!")
+        }
+
+        function second(a){
+            console.log("My name is "+a)
+        }
+
+        function third(){
+            console.log("My age is "+myAge)
+        }
+
+        HIII = function(){
+            console.log("Hi")
+        }
+
+        var Name = function(b){
+            console.log("My Name is "+b)
+        }
+
+        four = function(){
+            console.log("Hello World!!!")
+        }
+
+        first()
+        second("Ashim")
+        third()
+        HIII()
+        Name("Ashim")
+        four()
+
+        var d = function (){
+            console.log("Hello World!!!")
+        }
+
+        function six(c) {
+           c()
+        }
+
+        six(d)
+
+
+        var student = {
+
+            name:"Ashim",
+            age:20,
+            fee:function () {
+                console.log("RS.150000")
+            }
+        }
+
+        console.log(student.name)
+        console.log(student.fee())
+        student.fee()
+
+
+        
+
+    </script>
+
+</head>
+<body>
+    <script>
+
+    </script>
+</body>
+</html>
